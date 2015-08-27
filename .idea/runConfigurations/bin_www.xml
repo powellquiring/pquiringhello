@@ -1,0 +1,10 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="bin\www" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="C:/Program Files/nodejs/node" path-to-js-file="bin/www" working-dir="$PROJECT_DIR$">
+    <envs>
+      <env name="DEBUG" value="pquiringhello:*" />
+      <env name="VCAP_SERVICES" value="{ &quot;user-provided&quot;: [ { &quot;name&quot;: &quot;pquiring-twilio&quot;, &quot;label&quot;: &quot;user-provided&quot;, &quot;credentials&quot;: { &quot;accountSID&quot;: &quot;AC41bc0f20c41a2caf6e1d1bf0d6ca85c8&quot;, &quot;authToken&quot;: &quot;cf36b17e3d369fabf41bb8434386e244&quot; } } ] }" />
+    </envs>
+    <browser url="http://localhost:3000/" />
+    <method />
+  </configuration>
+</component>

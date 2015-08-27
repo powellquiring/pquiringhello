@@ -1,0 +1,9 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+  form(action='sms', method='post')
+    | SMS Message:
+    br
+    input(type='text', name='text')
